@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368814BE1E84B4ED0095292D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368814BD1E84B4ED0095292D /* AppDelegate.swift */; };
+		368814C01E84B4ED0095292D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368814BF1E84B4ED0095292D /* ViewController.swift */; };
+		368814C31E84B4ED0095292D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368814C11E84B4ED0095292D /* Main.storyboard */; };
+		368814C51E84B4ED0095292D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368814C41E84B4ED0095292D /* Assets.xcassets */; };
+		368814C81E84B4ED0095292D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368814C61E84B4ED0095292D /* LaunchScreen.storyboard */; };
+		368814D31E84B4ED0095292D /* Bootcamp_FlintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368814D21E84B4ED0095292D /* Bootcamp_FlintTests.swift */; };
+		368814DE1E84B4ED0095292D /* Bootcamp_FlintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368814DD1E84B4ED0095292D /* Bootcamp_FlintUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368814CF1E84B4ED0095292D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368814B21E84B4EC0095292D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368814B91E84B4EC0095292D;
+			remoteInfo = Bootcamp_Flint;
+		};
+		368814DA1E84B4ED0095292D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368814B21E84B4EC0095292D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368814B91E84B4EC0095292D;
+			remoteInfo = Bootcamp_Flint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368814BA1E84B4ED0095292D /* Bootcamp_Flint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp_Flint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368814BD1E84B4ED0095292D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		368814BF1E84B4ED0095292D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		368814C21E84B4ED0095292D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		368814C41E84B4ED0095292D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		368814C71E84B4ED0095292D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		368814C91E84B4ED0095292D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368814CE1E84B4ED0095292D /* Bootcamp_FlintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bootcamp_FlintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368814D21E84B4ED0095292D /* Bootcamp_FlintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp_FlintTests.swift; sourceTree = "<group>"; };
+		368814D41E84B4ED0095292D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368814D91E84B4ED0095292D /* Bootcamp_FlintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bootcamp_FlintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368814DD1E84B4ED0095292D /* Bootcamp_FlintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp_FlintUITests.swift; sourceTree = "<group>"; };
+		368814DF1E84B4ED0095292D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368814B71E84B4EC0095292D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368814CB1E84B4ED0095292D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368814D61E84B4ED0095292D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368814B11E84B4EC0095292D = {
+			isa = PBXGroup;
+			children = (
+				368814BC1E84B4ED0095292D /* Bootcamp_Flint */,
+				368814D11E84B4ED0095292D /* Bootcamp_FlintTests */,
+				368814DC1E84B4ED0095292D /* Bootcamp_FlintUITests */,
+				368814BB1E84B4ED0095292D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368814BB1E84B4ED0095292D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368814BA1E84B4ED0095292D /* Bootcamp_Flint.app */,
+				368814CE1E84B4ED0095292D /* Bootcamp_FlintTests.xctest */,
+				368814D91E84B4ED0095292D /* Bootcamp_FlintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368814BC1E84B4ED0095292D /* Bootcamp_Flint */ = {
+			isa = PBXGroup;
+			children = (
+				368814BD1E84B4ED0095292D /* AppDelegate.swift */,
+				368814BF1E84B4ED0095292D /* ViewController.swift */,
+				368814C11E84B4ED0095292D /* Main.storyboard */,
+				368814C41E84B4ED0095292D /* Assets.xcassets */,
+				368814C61E84B4ED0095292D /* LaunchScreen.storyboard */,
+				368814C91E84B4ED0095292D /* Info.plist */,
+			);
+			path = Bootcamp_Flint;
+			sourceTree = "<group>";
+		};
+		368814D11E84B4ED0095292D /* Bootcamp_FlintTests */ = {
+			isa = PBXGroup;
+			children = (
+				368814D21E84B4ED0095292D /* Bootcamp_FlintTests.swift */,
+				368814D41E84B4ED0095292D /* Info.plist */,
+			);
+			path = Bootcamp_FlintTests;
+			sourceTree = "<group>";
+		};
+		368814DC1E84B4ED0095292D /* Bootcamp_FlintUITests */ = {
+			isa = PBXGroup;
+			children = (
+				368814DD1E84B4ED0095292D /* Bootcamp_FlintUITests.swift */,
+				368814DF1E84B4ED0095292D /* Info.plist */,
+			);
+			path = Bootcamp_FlintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368814B91E84B4EC0095292D /* Bootcamp_Flint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368814E21E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_Flint" */;
+			buildPhases = (
+				368814B61E84B4EC0095292D /* Sources */,
+				368814B71E84B4EC0095292D /* Frameworks */,
+				368814B81E84B4EC0095292D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bootcamp_Flint;
+			productName = Bootcamp_Flint;
+			productReference = 368814BA1E84B4ED0095292D /* Bootcamp_Flint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368814CD1E84B4ED0095292D /* Bootcamp_FlintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368814E51E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_FlintTests" */;
+			buildPhases = (
+				368814CA1E84B4ED0095292D /* Sources */,
+				368814CB1E84B4ED0095292D /* Frameworks */,
+				368814CC1E84B4ED0095292D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368814D01E84B4ED0095292D /* PBXTargetDependency */,
+			);
+			name = Bootcamp_FlintTests;
+			productName = Bootcamp_FlintTests;
+			productReference = 368814CE1E84B4ED0095292D /* Bootcamp_FlintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		368814D81E84B4ED0095292D /* Bootcamp_FlintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368814E81E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_FlintUITests" */;
+			buildPhases = (
+				368814D51E84B4ED0095292D /* Sources */,
+				368814D61E84B4ED0095292D /* Frameworks */,
+				368814D71E84B4ED0095292D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368814DB1E84B4ED0095292D /* PBXTargetDependency */,
+			);
+			name = Bootcamp_FlintUITests;
+			productName = Bootcamp_FlintUITests;
+			productReference = 368814D91E84B4ED0095292D /* Bootcamp_FlintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368814B21E84B4EC0095292D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zavier Patrick David Aguila";
+				TargetAttributes = {
+					368814B91E84B4EC0095292D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					368814CD1E84B4ED0095292D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 368814B91E84B4EC0095292D;
+					};
+					368814D81E84B4ED0095292D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 368814B91E84B4EC0095292D;
+					};
+				};
+			};
+			buildConfigurationList = 368814B51E84B4EC0095292D /* Build configuration list for PBXProject "Bootcamp_Flint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368814B11E84B4EC0095292D;
+			productRefGroup = 368814BB1E84B4ED0095292D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368814B91E84B4EC0095292D /* Bootcamp_Flint */,
+				368814CD1E84B4ED0095292D /* Bootcamp_FlintTests */,
+				368814D81E84B4ED0095292D /* Bootcamp_FlintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368814B81E84B4EC0095292D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368814C81E84B4ED0095292D /* LaunchScreen.storyboard in Resources */,
+				368814C51E84B4ED0095292D /* Assets.xcassets in Resources */,
+				368814C31E84B4ED0095292D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368814CC1E84B4ED0095292D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368814D71E84B4ED0095292D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368814B61E84B4EC0095292D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368814C01E84B4ED0095292D /* ViewController.swift in Sources */,
+				368814BE1E84B4ED0095292D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368814CA1E84B4ED0095292D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368814D31E84B4ED0095292D /* Bootcamp_FlintTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368814D51E84B4ED0095292D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368814DE1E84B4ED0095292D /* Bootcamp_FlintUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368814D01E84B4ED0095292D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368814B91E84B4EC0095292D /* Bootcamp_Flint */;
+			targetProxy = 368814CF1E84B4ED0095292D /* PBXContainerItemProxy */;
+		};
+		368814DB1E84B4ED0095292D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368814B91E84B4EC0095292D /* Bootcamp_Flint */;
+			targetProxy = 368814DA1E84B4ED0095292D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		368814C11E84B4ED0095292D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368814C21E84B4ED0095292D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		368814C61E84B4ED0095292D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368814C71E84B4ED0095292D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368814E01E84B4ED0095292D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		368814E11E84B4ED0095292D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368814E31E84B4ED0095292D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bootcamp_Flint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZipZav.Bootcamp-Flint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		368814E41E84B4ED0095292D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bootcamp_Flint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZipZav.Bootcamp-Flint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		368814E61E84B4ED0095292D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bootcamp_FlintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZipZav.Bootcamp-FlintTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bootcamp_Flint.app/Bootcamp_Flint";
+			};
+			name = Debug;
+		};
+		368814E71E84B4ED0095292D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bootcamp_FlintTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZipZav.Bootcamp-FlintTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bootcamp_Flint.app/Bootcamp_Flint";
+			};
+			name = Release;
+		};
+		368814E91E84B4ED0095292D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Bootcamp_FlintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZipZav.Bootcamp-FlintUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bootcamp_Flint;
+			};
+			name = Debug;
+		};
+		368814EA1E84B4ED0095292D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Bootcamp_FlintUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZipZav.Bootcamp-FlintUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bootcamp_Flint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368814B51E84B4EC0095292D /* Build configuration list for PBXProject "Bootcamp_Flint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368814E01E84B4ED0095292D /* Debug */,
+				368814E11E84B4ED0095292D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368814E21E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_Flint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368814E31E84B4ED0095292D /* Debug */,
+				368814E41E84B4ED0095292D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		368814E51E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_FlintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368814E61E84B4ED0095292D /* Debug */,
+				368814E71E84B4ED0095292D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		368814E81E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_FlintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368814E91E84B4ED0095292D /* Debug */,
+				368814EA1E84B4ED0095292D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368814B21E84B4EC0095292D /* Project object */;
+}
