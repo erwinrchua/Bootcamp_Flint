@@ -1,0 +1,6 @@
+framework module Pods_Bootcamp_FlintUITests {
+  umbrella header "Pods-Bootcamp_FlintUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

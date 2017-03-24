@@ -14,6 +14,9 @@
 		368814C81E84B4ED0095292D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368814C61E84B4ED0095292D /* LaunchScreen.storyboard */; };
 		368814D31E84B4ED0095292D /* Bootcamp_FlintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368814D21E84B4ED0095292D /* Bootcamp_FlintTests.swift */; };
 		368814DE1E84B4ED0095292D /* Bootcamp_FlintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368814DD1E84B4ED0095292D /* Bootcamp_FlintUITests.swift */; };
+		42F4A8CB1D38B8A0B71C613F /* Pods_Bootcamp_FlintUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5B3BFE43F3CEAC1755C06A /* Pods_Bootcamp_FlintUITests.framework */; };
+		585E318872177B35F2D50852 /* Pods_Bootcamp_FlintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF5CC0DB5A181EC3025890 /* Pods_Bootcamp_FlintTests.framework */; };
+		89FB9C1D6DB8750DEB6D1924 /* Pods_Bootcamp_Flint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EEA1CDFB2CCC8578D81597 /* Pods_Bootcamp_Flint.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08ACAAF30443C0C8F53E3B6C /* Pods-Bootcamp_FlintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bootcamp_FlintTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bootcamp_FlintTests/Pods-Bootcamp_FlintTests.release.xcconfig"; sourceTree = "<group>"; };
+		24C7C5B191FB2D1C0EFB09FB /* Pods-Bootcamp_Flint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bootcamp_Flint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bootcamp_Flint/Pods-Bootcamp_Flint.release.xcconfig"; sourceTree = "<group>"; };
 		368814BA1E84B4ED0095292D /* Bootcamp_Flint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootcamp_Flint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		368814BD1E84B4ED0095292D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		368814BF1E84B4ED0095292D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		368814D91E84B4ED0095292D /* Bootcamp_FlintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bootcamp_FlintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		368814DD1E84B4ED0095292D /* Bootcamp_FlintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp_FlintUITests.swift; sourceTree = "<group>"; };
 		368814DF1E84B4ED0095292D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D4252D979408EE7F8A21B9 /* Pods-Bootcamp_FlintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bootcamp_FlintTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bootcamp_FlintTests/Pods-Bootcamp_FlintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39EEA1CDFB2CCC8578D81597 /* Pods_Bootcamp_Flint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bootcamp_Flint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D65092BCA3504F508296629 /* Pods-Bootcamp_FlintUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bootcamp_FlintUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bootcamp_FlintUITests/Pods-Bootcamp_FlintUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0D050C65764DB122CC3E4B /* Pods-Bootcamp_Flint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bootcamp_Flint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bootcamp_Flint/Pods-Bootcamp_Flint.debug.xcconfig"; sourceTree = "<group>"; };
+		B6AF5CC0DB5A181EC3025890 /* Pods_Bootcamp_FlintTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bootcamp_FlintTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5B3BFE43F3CEAC1755C06A /* Pods_Bootcamp_FlintUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bootcamp_FlintUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F763C3BF13A8263B6F2BF024 /* Pods-Bootcamp_FlintUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bootcamp_FlintUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bootcamp_FlintUITests/Pods-Bootcamp_FlintUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FB9C1D6DB8750DEB6D1924 /* Pods_Bootcamp_Flint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585E318872177B35F2D50852 /* Pods_Bootcamp_FlintTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42F4A8CB1D38B8A0B71C613F /* Pods_Bootcamp_FlintUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				368814D11E84B4ED0095292D /* Bootcamp_FlintTests */,
 				368814DC1E84B4ED0095292D /* Bootcamp_FlintUITests */,
 				368814BB1E84B4ED0095292D /* Products */,
+				A40223D2DEE8629FC18025C9 /* Pods */,
+				9C3CC1156C6344C792BFA766 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = Bootcamp_FlintUITests;
 			sourceTree = "<group>";
 		};
+		9C3CC1156C6344C792BFA766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39EEA1CDFB2CCC8578D81597 /* Pods_Bootcamp_Flint.framework */,
+				B6AF5CC0DB5A181EC3025890 /* Pods_Bootcamp_FlintTests.framework */,
+				BD5B3BFE43F3CEAC1755C06A /* Pods_Bootcamp_FlintUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40223D2DEE8629FC18025C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A0D050C65764DB122CC3E4B /* Pods-Bootcamp_Flint.debug.xcconfig */,
+				24C7C5B191FB2D1C0EFB09FB /* Pods-Bootcamp_Flint.release.xcconfig */,
+				39D4252D979408EE7F8A21B9 /* Pods-Bootcamp_FlintTests.debug.xcconfig */,
+				08ACAAF30443C0C8F53E3B6C /* Pods-Bootcamp_FlintTests.release.xcconfig */,
+				4D65092BCA3504F508296629 /* Pods-Bootcamp_FlintUITests.debug.xcconfig */,
+				F763C3BF13A8263B6F2BF024 /* Pods-Bootcamp_FlintUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 368814E21E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_Flint" */;
 			buildPhases = (
+				266BCE3558458AD4D08A72D3 /* [CP] Check Pods Manifest.lock */,
 				368814B61E84B4EC0095292D /* Sources */,
 				368814B71E84B4EC0095292D /* Frameworks */,
 				368814B81E84B4EC0095292D /* Resources */,
+				5080213042ABCB68404EBBDA /* [CP] Embed Pods Frameworks */,
+				2E8219B093F189FF2AA8B2E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 368814E51E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_FlintTests" */;
 			buildPhases = (
+				1F15C632E9DBA3EB55FABB31 /* [CP] Check Pods Manifest.lock */,
 				368814CA1E84B4ED0095292D /* Sources */,
 				368814CB1E84B4ED0095292D /* Frameworks */,
 				368814CC1E84B4ED0095292D /* Resources */,
+				4D75B046B7A3334B752EFC11 /* [CP] Embed Pods Frameworks */,
+				47478750F55395A478FBB20F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 368814E81E84B4ED0095292D /* Build configuration list for PBXNativeTarget "Bootcamp_FlintUITests" */;
 			buildPhases = (
+				403138265BBF5ED6850B8809 /* [CP] Check Pods Manifest.lock */,
 				368814D51E84B4ED0095292D /* Sources */,
 				368814D61E84B4ED0095292D /* Frameworks */,
 				368814D71E84B4ED0095292D /* Resources */,
+				B01D0B03FE6C6DAA333E9B10 /* [CP] Embed Pods Frameworks */,
+				03AF9A802CBAE33C90612E1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03AF9A802CBAE33C90612E1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bootcamp_FlintUITests/Pods-Bootcamp_FlintUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F15C632E9DBA3EB55FABB31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		266BCE3558458AD4D08A72D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E8219B093F189FF2AA8B2E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bootcamp_Flint/Pods-Bootcamp_Flint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		403138265BBF5ED6850B8809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		47478750F55395A478FBB20F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bootcamp_FlintTests/Pods-Bootcamp_FlintTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D75B046B7A3334B752EFC11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bootcamp_FlintTests/Pods-Bootcamp_FlintTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5080213042ABCB68404EBBDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bootcamp_Flint/Pods-Bootcamp_Flint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B01D0B03FE6C6DAA333E9B10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bootcamp_FlintUITests/Pods-Bootcamp_FlintUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		368814B61E84B4EC0095292D /* Sources */ = {
@@ -410,6 +597,7 @@
 		};
 		368814E31E84B4ED0095292D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0D050C65764DB122CC3E4B /* Pods-Bootcamp_Flint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bootcamp_Flint/Info.plist;
@@ -422,6 +610,7 @@
 		};
 		368814E41E84B4ED0095292D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C7C5B191FB2D1C0EFB09FB /* Pods-Bootcamp_Flint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Bootcamp_Flint/Info.plist;
@@ -434,6 +623,7 @@
 		};
 		368814E61E84B4ED0095292D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D4252D979408EE7F8A21B9 /* Pods-Bootcamp_FlintTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +638,7 @@
 		};
 		368814E71E84B4ED0095292D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08ACAAF30443C0C8F53E3B6C /* Pods-Bootcamp_FlintTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +653,7 @@
 		};
 		368814E91E84B4ED0095292D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D65092BCA3504F508296629 /* Pods-Bootcamp_FlintUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Bootcamp_FlintUITests/Info.plist;
@@ -475,6 +667,7 @@
 		};
 		368814EA1E84B4ED0095292D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F763C3BF13A8263B6F2BF024 /* Pods-Bootcamp_FlintUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Bootcamp_FlintUITests/Info.plist;
